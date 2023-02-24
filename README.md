@@ -17,11 +17,11 @@ metody:
 
 • int převeďNaMinuty()
 
-o vrátí počet minut od půlnoci 0:00
+> vrátí počet minut od půlnoci 0:00
 
 • int spočítejRozdílMinuty(Čas čas)
 
-o spočítá rozdíl dvou časů v minutách
+> spočítá rozdíl dvou časů v minutách
 
 ### Třída Spoj
 
@@ -39,7 +39,7 @@ metody:
 
 • int časJízdyMinuty()
 
-o vypočítá čas jízdy spoje v minutách, využijte metodu spočítejRozdílMinuty()
+> vypočítá čas jízdy spoje v minutách, využijte metodu spočítejRozdílMinuty()
 
 ### Třída Statistiky
 atributy:
@@ -52,7 +52,7 @@ metody:
 
 • void přidejSpoj(Spoj spoj)
 
-o přidá spoj do pole/seznamu
+> přidá spoj do pole/seznamu
 
 • void vypišSpoje()
 
@@ -60,14 +60,14 @@ o vypíše všechny spoje z pole/seznamu
 
 • Spoj najdiNejrychlejšíSpoj()
 
-o nalezne spoj s nejrychlejším projetím trasy
+> nalezne spoj s nejrychlejším projetím trasy
 
-o využijte metodu časJízdyMinuty()
+> využijte metodu časJízdyMinuty()
 
 • void vypišSpojeOdČasu(Čas čas)
 
-o vypíše spoje s odjezdem po zadaném času
+> vypíše spoje s odjezdem po zadaném času
 
 • void načtiSpoje(String jménoSouboru)
 
-o načte ze souboru spoje do pole/seznam
+> načte ze souboru spoje do pole/seznamu
